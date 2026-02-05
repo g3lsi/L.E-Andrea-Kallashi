@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap (sostituisci con il tuo dominio reale se diverso)
+Sitemap: https://www.lemultiservizi.it/sitemap.xml

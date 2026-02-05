@@ -42542,3 +42542,94 @@ section.bg-accent h3 {
   margin-bottom: 15px;
 }
 
+
+/* Lavori section - carousel solo immagini */
+.lavori-carousel-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+#lavori .owl-nav button {
+  color: #df553b;
+}
+
+#lavori .owl-dots .owl-dot.active span,
+#lavori .owl-dots .owl-dot:hover span {
+  background: #df553b;
+}
+
+
+/* Sfondo arancione chiaro trasparente - Come Lavoriamo */
+.bg-orange-light {
+  background-color: rgba(223, 85, 59, 0.12) !important;
+}
+
+
+/* Google Maps iframe embed - responsive */
+.google-map-embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.google-map-embed iframe {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 350px;
+}
+
+
+/* Cookie banner */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #393e48;
+  color: #fff;
+  padding: 14px 20px;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.15);
+}
+.cookie-banner-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.cookie-banner p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  flex: 1;
+  min-width: 260px;
+}
+.cookie-banner a {
+  color: #df553b;
+  text-decoration: underline;
+}
+.cookie-banner a:hover {
+  color: #f7f6f6;
+}
+.cookie-banner .btn {
+  flex-shrink: 0;
+}
+/* Checkbox privacy form */
+.form-wrap-checkbox label {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.form-wrap-checkbox input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+  vertical-align: middle;
+}
